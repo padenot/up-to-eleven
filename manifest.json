@@ -1,0 +1,19 @@
+{
+  "description": "Increase the audio on a tab",
+  "manifest_version": 2,
+  "name": "up-to-eleven",
+  "version": "0.1",
+
+  "background": {
+    "scripts": ["up-to-eleven.js"]
+  },
+  "browser_action": {
+    "default_icon": {
+      "48": "icons/uptoeleven.png",
+      "96": "icons/uptoeleven@2x.png"
+    }
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
