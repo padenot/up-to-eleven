@@ -1,16 +1,16 @@
 {
-  "description": "Increase the audio on a tab",
+  "description": "Increase the volume of audio on a tab, making quiet sounds lounder and limiting loud sounds.",
   "manifest_version": 2,
   "name": "up-to-eleven",
-  "version": "0.1",
+  "version": "0.2",
 
   "background": {
     "scripts": ["up-to-eleven.js"]
   },
   "browser_action": {
     "default_icon": {
-      "48": "icons/uptoeleven.png",
-      "96": "icons/uptoeleven@2x.png"
+      "48": "icons/uptoeleven-disabled.png",
+      "96": "icons/uptoeleven@2x-disabled.png"
     }
   },
   "permissions": [
